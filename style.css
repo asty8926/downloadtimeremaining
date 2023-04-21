@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  height: 100dvh;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+#app {
+ display: grid;
+ place-items: center;
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  /*place-items: center;*/
+  padding: 5rem;
+  min-width: 250px;
+  max-width: 70%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+input[type="number"] {
+  padding: .5rem .7rem;
+  /*width: 100%;*/
+}
+
+.form-button {
+  padding: .5rem .7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
