@@ -6,8 +6,8 @@ const calculateBtnEl = document.querySelector("#form-button")
 const timeRemainingEl = document.querySelector("#time-remaining")
 
 function calculateSecondsRemaining() {
-  let dlSize = dlSizeEl.value
-  let dlSpeed = dlSpeedEl.value
+  let dlSize = Math.abs(dlSizeEl.value)
+  let dlSpeed = Math.abs(dlSpeedEl.value)
   
   let secondsRemaining = dlSize / dlSpeed
   return secondsRemaining
