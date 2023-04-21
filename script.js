@@ -61,6 +61,12 @@ function displayFormattedTimeRemaining() {
 
 calculateBtnEl.addEventListener("click", displayFormattedTimeRemaining)
 
+// Allows the user of the Enter key to "submit the form"
+document.body.addEventListener("keydown", event => {
+    if (event.key !== "Enter") return
+    displayFormattedTimeRemaining()
+})
+
 function toHoursAndMinutes(totalSeconds) {
   const totalMinutes = Math.floor(totalSeconds / 60)
 
