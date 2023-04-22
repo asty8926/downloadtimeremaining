@@ -7,5 +7,7 @@ I got frustrated by it multiple times and finally decided to create a simple too
 
 If it's useful to even 1 person ever, then that was worth it.
 
+[🔗 Get an estimation of your download remaining time here](https://asty8926.github.io/downloadtimeremaining/)
+
 ## Demo
 ![image](https://user-images.githubusercontent.com/31024172/233747942-792d76fc-8e16-4c9a-a6a7-3f7b8d704973.png)
